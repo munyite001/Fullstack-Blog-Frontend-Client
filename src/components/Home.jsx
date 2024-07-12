@@ -35,6 +35,7 @@ export default function App() {
     return (
         <div className='home'>
             <h1 className="heading">Home</h1>
+            {console.log(`Backend Url server: ${backendUrl}`)}
             <div className="posts">
                 {posts && 
                     <div className="featured-post post" onClick={() => {handlePostClick(featured._id)}}>
